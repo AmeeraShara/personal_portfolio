@@ -15,7 +15,7 @@ const projects = [
   {
     title: 'Payroll Management System',
     description: 'A full-stack payroll system using Laravel, PHP, and MySQL with role-based access.',
-    link: 'https://github.com/AmeeraShara/payroll-system',
+    link: 'https://github.com/AmeeraShara/payroll_management_system',
   },
   {
     title: 'Library Management System',
