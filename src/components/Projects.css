@@ -1,51 +1,55 @@
 #projects {
-  padding: 80px 20px;
+  padding: 120px 20px; /* more vertical space */
   background-color: #f9f9f9;
   font-family: 'Segoe UI', sans-serif;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px; /* more space below heading */
   color: #222;
+  font-size: 3rem; /* bigger heading */
+  font-weight: 700;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  max-width: 1000px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* wider cards */
+  gap: 40px; /* more spacing between cards */
+  max-width: 1200px; /* wider container */
   margin: 0 auto;
 }
 
 .project-card {
   background-color: #fff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 40px; /* bigger padding */
+  border-radius: 16px; /* rounder corners */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15); /* stronger shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transform: scale(1.05); /* zoom effect */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25); /* deeper shadow on hover */
 }
 
 .project-card h3 {
   color: #ff4b2b;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.8rem; /* larger title */
 }
 
 .project-card p {
-  font-size: 0.95rem;
-  margin-bottom: 15px;
+  font-size: 1.1rem; /* bigger text */
+  margin-bottom: 25px;
   color: #333;
 }
 
 .project-card a {
   color: #007bff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.1rem; /* bigger link */
 }
 
 .project-card a:hover {
